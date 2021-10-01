@@ -19,7 +19,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layoutDescription="@xml/step3" >
+        app:layoutDescription="@xml/step3"
+        app:motionDebug="SHOW_PATH" >
 
 
     <ImageView
@@ -38,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/ic_moon"
-            android:tint="?colorOnPrimary"
+            app:tint="?colorOnPrimary"
     />
 
     <TextView
